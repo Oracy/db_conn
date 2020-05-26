@@ -17,13 +17,9 @@ To use this package is necessary create file on your home `~`
         }
 ```
 
-<div class="panel panel-gitlab-orange">
-    **Warning**
-    {: .panel-heading}
-    <div class="panel-body">
-        Remember, if you put your `access_information` inside of your project, add this file into `.gitignore` even if it is a private project, security first 😉
-    </div>
-</div>
+#### ⚠️ Warning ❗️
+
+- Remember, if you put your `access_information` inside of your project, add this file into `.gitignore` even if it is a private project, security first 😉
 
 
 After that to use in code, you just need to:

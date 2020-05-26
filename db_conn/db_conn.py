@@ -21,17 +21,11 @@ def get_database_access(path=None):
     ----------
     :path: recieves access_information.json path
     """
-    if path == None:
-        path = '~/access_information.json'
-        database_file_name = path
-        with open(database_file_name, "r") as database_file:
-            database_access = json.load(database_file)
-        return database_access
-    else:
-        database_file_name = path
-        with open(database_file_name, "r") as database_file:
-            database_access = json.load(database_file)
-        return database_access
+    
+    database_file_name = '~/access_information.json' if path == None else path
+    with open(database_file_name, "r") as database_file:
+        database_access = json.load(database_file)
+    return database_access
 
 
 class DatabaseHandler:

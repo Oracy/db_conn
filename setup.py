@@ -7,7 +7,7 @@ def readme():
 
 setuptools.setup(
     name='db_conn',  
-    version='0.3',
+    version='0.4',
     description="Database connection (Postgres, Redshift)",
     long_description=readme(),
     long_description_content_type="text/markdown",
